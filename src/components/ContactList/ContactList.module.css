@@ -2,9 +2,10 @@
   display: flex;
   max-width: 1024px;
   gap: 10px;
-  /* flex-direction: column; */
   flex-wrap: wrap;
-  padding-left: 10px;
+  padding-left: 0px;
+  margin: 20px auto;
+  justify-content: center;
 }
 .item {
   list-style-type: none;

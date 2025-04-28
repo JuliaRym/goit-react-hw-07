@@ -4,8 +4,8 @@ import css from "./Contact.module.css";
 const Contact = ({ contact }) => {
   return (
     <div className={css.contact}>
-      <p>{contact.name}</p>
-      <p>{contact.number}</p>
+      <p className={css.name}>{contact.name}</p>
+      <p className={css.phone}>{contact.phone}</p>
     </div>
   );
 };
